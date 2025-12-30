@@ -1,4 +1,3 @@
-
 User-agent: *
 Allow: /
-Sitemap: https://salesforcetroopai.com/sitemap.xml
+Sitemap: https://sfai.netlify.app/sitemap.xml
