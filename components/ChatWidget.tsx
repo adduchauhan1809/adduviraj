@@ -16,8 +16,8 @@ export default function ChatWidget() {
                 embeddedservice_bootstrap.settings.language = 'en_US';
                 embeddedservice_bootstrap.init(
                   '00Dg5000002kBx3',
-                  'SFTroop_Messaging_for_web',
-                  'https://orgfarm-d4d03d3f06-dev-ed.develop.my.site.com/ESWSFTroopMessagingfor1767107124224',
+                  'SFtroop',
+                  'https://orgfarm-d4d03d3f06-dev-ed.develop.my.site.com/ESWSFtroop1767146249892',
                   {
                     scrt2URL: 'https://orgfarm-d4d03d3f06-dev-ed.develop.my.salesforce-scrt.com'
                   }
@@ -32,7 +32,7 @@ export default function ChatWidget() {
       
       {/* Second script: Load bootstrap and call initEmbeddedMessaging on load */}
       <Script
-        src="https://orgfarm-d4d03d3f06-dev-ed.develop.my.site.com/ESWSFTroopMessagingfor1767107124224/assets/js/bootstrap.min.js"
+        src="https://orgfarm-d4d03d3f06-dev-ed.develop.my.site.com/ESWSFtroop1767146249892/assets/js/bootstrap.min.js"
         strategy="afterInteractive"
         onLoad={() => {
           if (typeof window !== 'undefined' && typeof (window as any).initEmbeddedMessaging === 'function') {
