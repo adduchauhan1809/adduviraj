@@ -129,9 +129,7 @@ export default function BlogPostPage({ params }: Props) {
             <div className="flex-grow max-w-3xl">
               <div 
                 dangerouslySetInnerHTML={{ __html: post.content }} 
-                className="prose prose-lg prose-navy max-w-none text-gray-700 leading-relaxed text-lg 
-                prose-headings:font-black prose-headings:tracking-tight prose-headings:text-navy
-                prose-p:font-light prose-strong:font-bold prose-ul:font-light prose-li:my-2"
+                className="prose prose-lg prose-navy max-w-none text-gray-700 leading-relaxed text-lg prose-headings:font-black prose-headings:tracking-tight prose-headings:text-navy prose-p:font-light prose-strong:font-bold prose-ul:font-light prose-li:my-2"
               />
               
               {/* Author Card */}

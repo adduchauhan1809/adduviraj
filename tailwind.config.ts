@@ -16,9 +16,26 @@ const config: Config = {
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
       },
+      typography: {
+        DEFAULT: {
+          css: {
+            color: '#374151',
+            maxWidth: 'none',
+          },
+        },
+        navy: {
+          css: {
+            '--tw-prose-headings': '#032D60',
+            '--tw-prose-body': '#374151',
+            '--tw-prose-bold': '#032D60',
+          },
+        },
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 }
 export default config
 
