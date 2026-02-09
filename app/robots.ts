@@ -7,7 +7,7 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/api/', '/admin/'],
     },
-    sitemap: 'https://sfai.netlify.app/sitemap.xml',
+    sitemap: 'https://resonant-llama-858de7.netlify.app/sitemap.xml',
   }
 }
 
